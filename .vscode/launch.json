@@ -11,7 +11,7 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/reverse-string.js"
+      "program": "${workspaceFolder}/string-splitter.js"
     }
   ]
 }
