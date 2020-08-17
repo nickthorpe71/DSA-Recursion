@@ -1,16 +1,16 @@
 // Pre Code
 //  -----------------------
 // What is the input to the program?
-//    input: 
+//    input: a number
 
 // What is the output of the program?
-//    output: 
+//    output: the factorial of the input number
 
 // What is the input to each recursive call?
-//    input: 
+//    input: the input number multiplied by the factorial of the number 1 less than itself
 
 // What is the output of each recursive call?
-//    output: 
+//    output: the factorial of the input number
 
 
 function findFact(n) {
