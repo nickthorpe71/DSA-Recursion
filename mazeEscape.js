@@ -31,7 +31,6 @@ function findPaths(maze, pos = [[0, 0]], paths = [''], mazes = [maze], completed
   }
 
 
-
   for (let i = 0; i < paths.length; i++) {
 
     if (newCompleted[i] === false) {
