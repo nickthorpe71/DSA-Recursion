@@ -22,4 +22,9 @@ function reverseStr(str) {
   return str[current] + reverseStr(str.slice(0, current));
 }
 
-console.log(reverseStr('a long sentance that needs to be reversed'));
+console.log(reverseStr('word'));
+
+//first pass 'd' + reverseStr('wor') -- d + row == drow -- reversed!
+//'r' + reverseStr('wo') -- r + ow == row (because ow is the return of reverseStr('wo'))
+//'o' + reverseStr('w') -- o + w == ow
+//'w' + reverseStr('') -- w + '' == w

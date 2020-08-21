@@ -31,4 +31,4 @@ function findAnagrams(string) {
   return permutations;
 }
 
-console.log(findAnagrams('word'));
+console.log(findAnagrams('east'));
