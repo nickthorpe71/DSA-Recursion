@@ -11,7 +11,7 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/organization-chart.js"
+      "program": "${workspaceFolder}/sum-array.js"
     }
   ]
 }
