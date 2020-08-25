@@ -3,30 +3,6 @@ jshint esversion: 6
 repo: https://github.com/JS-Challenges/recursion-prompts/blob/master/src/recursion.js
 */
 
-
-// Solve the following prompts using recursion.
-
-// 1. Calculate the factorial of a number. The factorial of a non-negative integer n,
-// denoted by n!, is the product of all positive integers less than or equal to n.
-// Example: 5! = 5 x 4 x 3 x 2 x 1 = 120
-// factorial(5); // 120
-var factorial = function (n) {
-  if (n === 1)
-    return 1;
-
-  return n * factorial(n - 1);
-};
-
-// 4. Check if a number is even.
-var isEven = function (n) {
-};
-
-// 5. Sum all integers below a given integer.
-// sumBelow(10); // 45
-// sumBelow(7); // 21
-var sumBelow = function (n) {
-};
-
 // 6. Get the integers within a range (x, y).
 // range(2,9); // [3,4,5,6,7,8]
 var range = function (x, y) {
